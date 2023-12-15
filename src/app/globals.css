@@ -2,26 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url(./images/architect-wallpaper-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.line{
+  width: 150px;    
+  height: 7px;    
+  padding: 3px;    
+  margin: 50px;
+  background: rgb(208, 34, 40);
+  margin-left:-30px;
+  margin-right:2px;
+  border:none;
+}
+.line2{
+  width: 150px;    
+  height: 7px;    
+  padding: 3px;    
+  margin: 35px;
+  background: rgb(208, 34, 40);
+  margin-left:-40px;
+  margin-right:20px;
+  border:none;
+}
+.line3{
+  width: 130px;    
+  height: 7px;    
+  padding: 3px;    
+  margin: 35px;
+  background: rgb(208, 34, 40);
+  margin-left:470px;
+  margin-right:-50px;
+  border:none;
+}
+.line4{
+  width: 130px;    
+  height: 7px;    
+  padding: 3px;    
+  margin: 35px;
+  background: rgb(208, 34, 40);
+  margin-left:-70px;
+  margin-right:-50px;
+  border:none;
 }
