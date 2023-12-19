@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-image: url(./images/architect-wallpaper-2.jpg);
+  background-image: url(./images/abstract-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14,7 +14,7 @@ body {
   padding: 3px;    
   margin: 50px;
   background: rgb(208, 34, 40);
-  margin-left:-30px;
+  margin-left:-80px;
   margin-right:2px;
   border:none;
 }
@@ -24,8 +24,8 @@ body {
   padding: 3px;    
   margin: 35px;
   background: rgb(208, 34, 40);
-  margin-left:-40px;
-  margin-right:20px;
+  margin-left:115px;
+  margin-right:50px;
   border:none;
 }
 .line3{
@@ -34,10 +34,70 @@ body {
   padding: 3px;    
   margin: 35px;
   background: rgb(208, 34, 40);
-  margin-left:470px;
+  margin-left:60px;
+  margin-right:-50px;
+  text-align: center;
+  border:none;
+}
+.line-4{
+  width: 130px;    
+  height: 7px;    
+  padding: 3px;    
+  margin: 35px;
+  background: white;
+  margin-left:-80px;
   margin-right:-50px;
   border:none;
 }
+@media screen and (min-width: 768px) {
+  .About-line{
+    width: 150px;    
+    height: 7px;    
+    padding: 3px;    
+    margin: 30px;
+    margin-bottom: -50px;
+    background: rgb(208, 34, 40);
+    margin-left:-80px;
+    margin-right:50px;
+    border:none;
+  }
+
+  .line2{
+    width: 150px;    
+    height: 7px;    
+    padding: 3px;    
+    margin: 35px;
+    background: rgb(208, 34, 40);
+    margin-left:-40px;
+    margin-right:20px;
+    border:none;
+  }
+
+  .line3{
+    width: 130px;    
+    height: 7px;    
+    padding: 3px;    
+    margin: 35px;
+    background: rgb(208, 34, 40);
+    margin-left:400px;
+    margin-right:-50px;
+    text-align: center;
+    border:none;
+  }
+
+  /* .About-line{
+    width: 150px;    
+    height: 7px;    
+    padding: 3px;    
+    margin: 30px;
+    margin-bottom: -50px;
+    background: rgb(208, 34, 40);
+    margin-left:-80px;
+    margin-right:50px;
+    border:none;
+  } */
+}
+
 .line4{
   width: 130px;    
   height: 7px;    

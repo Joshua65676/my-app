@@ -7,6 +7,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}', 
   ],
   theme: {
+    screen: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -15,6 +21,7 @@ module.exports = {
       },
       colors: {
         'service-color': 'rgb(242, 245, 244)',
+        'bg-color': 'rgb(216, 222, 220)',
       },
     },
   },
