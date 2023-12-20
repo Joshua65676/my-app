@@ -49,6 +49,17 @@ body {
   margin-right:-50px;
   border:none;
 }
+.parent{
+  overflow: hidden;
+}
+.image{
+  background-size: cover;
+  transition: all 1.1s;
+}
+.image:hover{
+  transform: scale(1.2);
+  background-color: transparent;
+}
 @media screen and (min-width: 768px) {
   .About-line{
     width: 150px;    
