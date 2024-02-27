@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <hr class="md:-ml-8 line"/>
       <div class="-ml-10 -pt-24 md:ml-8 md:pt-24">
-        <h1 class="text-2xl font-bold md:text-7xl"> Ingenious Desing & <br /> Architecture</h1>
+        <h1 class="text-2xl font-bold md:text-7xl"> Ingenious Design & <br /> Architecture</h1>
       </div>   
       <div class="mr-20 -ml-16 pt-14 mt-14 p-10 w-96 flex space-x-24 bg-white md:mr-96 md:-ml-9 md:w-6/12 md:space-x-80">
         <span class="ml-14 font-bold text-lg hover:text-red-600">Read more </span>

@@ -5,6 +5,7 @@
 body {
   background-image: url(./images/abstract-background.jpg);
   background-repeat: no-repeat;
+  overflow-x: hidden;
   background-size: cover;
 }
 
