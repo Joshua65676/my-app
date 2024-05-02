@@ -10,7 +10,7 @@ export default function Projects() {
             <span class="font-bold md:ml-8">Global Perspective</span>
           </div>
           <hr class="About-line bg-red-600 p-1 w-40 h-2 m-12 -ml-28" />
-          <div class="md:m-20 md:-ml-1 -ml-5">
+          <div class="md:m-20 md:mb-5 md:-ml-1 -ml-5">
             <h2 class="font-bold md:text-7xl text-3xl md:-mr-28">Projects</h2>
           </div>
         </div>

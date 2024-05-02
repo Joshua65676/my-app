@@ -74,8 +74,8 @@ export default function Footer() {
           </div>
             <hr class="mt-4 text-service-color"/>
             <div>
-              <div class="text-center pt-5"><span class="font-bold">Copyright &#0169; 2023 Architecture Firm</span></div>
-              <div class="text-center pt-3"><span class="font-bold">Powered by Architecture Firm</span></div>
+              <div class="text-center pt-5"><span class="font-bold">Copyright &#0169; 2024 Architecture Firm</span></div>
+              <div class="text-center pt-3"><span class="font-bold">Powered by JoshDev</span></div>
             </div>
 
           </div>

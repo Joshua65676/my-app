@@ -8,14 +8,14 @@ export default function Home() {
   return (
    <section>
     <main class="mx-16">
-      <div class="pt-28 text-lg font-bold -ml-12  md:ml-10">
+      <div class="pt-28 text-lg font-bold -ml-12  md:ml-40">
         <p class="text-bold">Original And Creative In Thinking</p>
       </div>
-      <hr class="md:-ml-8 line"/>
-      <div class="-ml-10 -pt-24 md:ml-8 md:pt-24">
+      <hr class="md:ml-28 line"/>
+      <div class="-ml-10 -pt-24 md:ml-40 md:pt-24 md:-mt-14">
         <h1 class="text-2xl font-bold md:text-7xl"> Ingenious Design & <br /> Architecture</h1>
       </div>   
-      <div class="mr-20 -ml-16 pt-14 mt-14 p-10 w-96 flex space-x-24 bg-white md:mr-96 md:-ml-9 md:w-6/12 md:space-x-80">
+      <div class="mr-20 -ml-16 pt-14 mt-14 p-10 w-96 flex space-x-24 bg-white md:mr-96 md:ml-28 md:w-6/12 md:space-x-80">
         <span class="ml-14 font-bold text-lg hover:text-red-600">Read more </span>
         <FaLongArrowAltRight class="font-bold text-lg hover:text-red-600"/>
       </div>    
@@ -33,11 +33,11 @@ export default function Home() {
           <div class="space-y-10 md:justify-around md:space-x-14 md:-mr-20 md:flex">
             <div class="space-y-5">
               <Image src="/architect-photo-01-free-img.jpg.jpg" width={300} height={500} class="ml-10" alt="uche" />
-              <h4 class="font-bold text-xl ml-10 md:ml-10">Okoro Uche</h4>
+              <h4 class="font-bold text-xl ml-10 md:ml-10">Josh Dev</h4>
               <p class="font-normal ml-10 md:ml-10">I am text block. Click edit button<br /> to change this text.<br /> Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.</p>
             </div>
             <div class="space-y-5 md:-pt-5">
-              <h4 class="font-bold text-xl ml-10 md:ml-10">Okoro Uche</h4>
+              <h4 class="font-bold text-xl ml-10 md:ml-10">Josh Dev</h4>
               <p class="font-normal ml-10 md:ml-10">I am text block. Click edit button<br /> to change this text.<br /> Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.</p>
               <Image src="/architect-photo-02-free-img.jpg" width={300} height={500} class="ml-10" alt="gee" />
             </div>

@@ -106,11 +106,11 @@ export default function About() {
               <div class="space-y-10 md:justify-around md:space-x-14 md:-mr-20 md:flex">
                  <div class="space-y-5">
                    <Image src="/architect-photo-01-free-img.jpg.jpg" width={300} height={500} class="ml-10" alt="uche" />
-                   <h4 class="font-bold text-xl ml-10 md:ml-10">Okoro Uche</h4>
+                   <h4 class="font-bold text-xl ml-10 md:ml-0 md:text-center">Josh Dev</h4>
                    <p class="font-normal ml-10 md:ml-10">I am text block. Click edit button<br /> to change this text.<br /> Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.</p>
                  </div>
                  <div class="space-y-5 md:-pt-5">
-                   <h4 class="font-bold text-xl ml-10 md:ml-10">Okoro Uche</h4>
+                   <h4 class="font-bold text-xl ml-10 md:ml-0 md:text-center">Josh Dev</h4>
                    <p class="font-normal ml-10 md:ml-10">I am text block. Click edit button<br /> to change this text.<br /> Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.</p>
                    <Image src="/architect-photo-02-free-img.jpg" width={300} height={500} class="ml-10" alt="gee" />
                  </div>
@@ -120,16 +120,16 @@ export default function About() {
             <div class="md:-mt-80 md:p-64 p-32 md:w-screen -ml-20 md:ml-0 md:-ml-0 bg-white">
                 <div class="md:flex md:space-x-32 md:ml-20">
                   <div class=" md:pt-10 pt-10 pb-10 md:-ml-40">
-                    <h4 class="font-bold text-xl pb-5">Ashley Collins</h4>
+                    <h4 class="font-bold text-xl pb-5 md:text-center">Ashley Collins</h4>
                     <p class="font-normal">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                   <div class="md:mt-5 md:-ml-20 -mr-20">
                     <Link href="#">
                       <Image src="/about-img.jpg" width={1100} height={500} alt="boss" />
                     </Link>
-                  </div>  
-                  <div class="md:pt-5 pt-10 md:-ml-40">
-                    <h4 class="font-bold text-xl pb-5">Sarah Allen</h4>
+                  </div>
+                  <div class="md:pt-5 pt-10 md:-ml-52">
+                    <h4 class="font-bold text-xl pb-5 md:text-center">Sarah Allen</h4>
                     <p class="font-normal">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ export default function About() {
                     </Link>
                   </div>
                   <div class="md:pt-14 pt-10 mr-10 md:ml-10 pb-5">
-                    <h4 class="font-bold text-xl pb-5">Daniel Vargas</h4>
+                    <h4 class="font-bold text-xl pb-5 md:text-center">Daniel Vargas</h4>
                     <p class="font-normal">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                   <div class="md:-mt-40 md:ml-24">
@@ -149,7 +149,7 @@ export default function About() {
                       <Image src="/about-image02.jpg" width={1100} height={500} class="md:ml-2" alt="" />
                     </Link>
                   </div>
-                </div>                      
+                </div>
             </div>
 
         </div>
