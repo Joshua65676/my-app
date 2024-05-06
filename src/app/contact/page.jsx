@@ -15,7 +15,7 @@ export default function Contact(){
                   </div>
                 </div>
 
-            <div class="md:-mt-52 md:p-52 pb-40 -mt-20 md:w-screen w-full md:flex md:space-x-20 flex-col-revers bg-slate-50">
+            <div class="md:-mt-52 md:p-52 pb-40 -mt-2 md:w-screen w-full md:flex md:space-x-20 flex-col-revers bg-slate-50">
              <div class="md:mr-52 md:ml-20 md:pt-5 md:pb-5 pt-20 pb-20 ml-10 ">
                <div class="md:-mt-10 -mt-20 -ml-5">
                  <span class="font-bold text-sm">Have Any Questions?</span>
