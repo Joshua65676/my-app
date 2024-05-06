@@ -22,7 +22,7 @@ export default function Contact(){
                </div>
                <div class="md:mt-10 -ml-8 -mr-52">
                  <div class="">
-                   <h2 class="font-bold md:text-5xl text-3xl">Let's Get In Touch</h2>
+                   <h2 class="font-bold md:text-5xl text-3xl">Let&apos;s Get In Touch</h2>
                  </div>
                  <div class="md:mt-14 md:mb-32 mt-10 mr-56 md:mr-14">
                    <p class="font-normal md:text-sm text-lg" >Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
