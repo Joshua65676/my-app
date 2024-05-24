@@ -6,19 +6,19 @@ export default function About() {
     return (
       <section>
         <div class="">
-          <div class="mr-20 -ml-16 pt-10 mt-36 w-96 p-32 md:p-20 md:w-4/12 bg-white md:pt-1 md:ml-40">
-              <div class="md:mt-10 md:-ml-5 -ml-10">
+          <div class="mr-10 -ml-16 pt-10 mt-36 w-96 p-0 md:p-20 md:w-4/12 bg-white md:pt-1 md:ml-40">
+              <div class="md:mt-10 md:-ml-5 ml-20">
                 <span class="font-bold ml-8">A few words</span>
               </div>
-                <hr class="About-line bg-red-600 p-1 w-40 h-2 m-12 -ml-28"/>
-              <div class="md:m-20 md:-ml-1 -ml-5">
-                <h2 class="font-bold md:text-7xl text-3xl md:-mr-28">About Us</h2>
+                <hr class="About-line bg-red-600 p-1 w-40 h-2 m-12 -ml-1"/>
+              <div class="md:m-20 md:-ml-1 ml-24">
+                <h2 class="font-bold md:text-7xl text-5xl md:-mr-28">About Us</h2>
               </div>
-           </div> 
+           </div>
            {/* About Section 2 */}
            <div class="md:-mt-52 md:p-52 md:pt- pb-40 -mt-2 md:w-screen w-full md:flex md:space-x-20 flex-col-revers bg-white">
             <div class="md:mr-52 md:ml-20 md:pt-5 md:pb-5 pt-20 pb-20 ml-10 ">
-               <div class="md:-mt-10 -mt-20 -ml-5">
+               <div class="md:-mt-10 -mt-2 -ml-5">
                  <span class="font-bold text-sm">Leading Company</span>
                </div>
                <hr  class="line4" />

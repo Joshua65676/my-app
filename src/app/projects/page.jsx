@@ -11,7 +11,7 @@ export default function Projects() {
           </div>
           <hr class="About-line bg-red-600 p-1 w-40 h-2 m-12 -ml-28" />
           <div class="md:m-20 md:mb-5 md:-ml-1 -ml-5">
-            <h2 class="font-bold md:text-7xl text-3xl md:-mr-28">Projects</h2>
+            <h2 class="font-bold md:text-7xl text-5xl md:-mr-28">Projects</h2>
           </div>
         </div>
 
